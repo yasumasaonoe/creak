@@ -62,7 +62,7 @@ https://www.cs.utexas.edu/~yasumasa/creak/leaderboard.html
 
 We host results only for Closed-Book methods that have been finetuned on only In-Domain data.
 
-To submit your results, please send your system name and prediction files on the dev, test, and contrast set to `yasumasa@utexas.edu`.
+To submit your results, please send your system name and prediction files for the dev, test, and contrast sets to `yasumasa@utexas.edu`.
 
 
 ## Contact 

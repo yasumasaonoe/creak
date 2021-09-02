@@ -51,10 +51,8 @@ $ bash ../data/get_fm2.sh
 - `baselines/run_seq2seq_classifier.py`: Main script for training and evaluating T5 models, and writing predictions to an output file
 
 ### Train
-
 #### Train RoBERTa on CREAK
-
-To train RoBERTa on CREAK, run this command in the root directory (`creak/`).
+To train RoBERTa-large on CREAK, run this command in the root directory (`creak/`).
 
 ```
 DATA="creak"
@@ -89,7 +87,7 @@ python baselines/bert_classifiers.py \
 ```
 
 #### Train T5 on CREAK
-
+To train T5-3B on CREAK, run this command in the root directory (`creak/`).
 ```
 DATA="creak"
 MODEL="t5-3b"
@@ -129,7 +127,7 @@ deepspeed --num_gpus 2 baselines/run_seq2seq_classifiers.py \
 
 ### Evaluation
 #### Evaluate RoBERTa on CREAK Dev and contrast set
-To evaluate RoBERTa on CREAK, run this command in the root directory (`creak/`).
+To evaluate RoBERTa-large on CREAK, run this command in the root directory (`creak/`).
 ```
 CHECKPOINT="XXXX"
 DATA="creak"
@@ -153,6 +151,7 @@ python baselines/bert_classifiers.py \
 ```
 
 #### Evaluate T5 on CREAK Dev and contrast set
+To evaluate T5-3B on CREAK, run this command in the root directory (`creak/`).
 ```
 CHECKPOINT="XXXX"
 DATA="creak"
