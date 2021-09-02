@@ -54,7 +54,7 @@ The data files are formatted as jsonlines. Here is a single training example:
 
 ## Baselines
 
-See [this README](creak/baselines/README.md) 
+See [this README](baselines/README.md) 
 
 ## Leaderboards
 
