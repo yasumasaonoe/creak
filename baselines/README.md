@@ -1,4 +1,4 @@
-# Running Baselines Models
+# Running Baseline Models
 
 ## Getting Started 
 
