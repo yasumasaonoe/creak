@@ -4,7 +4,7 @@ This repository contains the data and code for the baseline described in the fol
 
 > [**CREAK: A Dataset for Commonsense Reasoning over Entity Knowledge**](https://openreview.net/pdf?id=mbW_GT3ZN-)<br/>
 > Yasumasa Onoe, Michael J.Q. Zhang, Eunsol Choi, Greg Durrett<br/>
-> Submitted to NeurIPS 2021 Datasets and Benchmarks Track
+> NeurIPS 2021 Datasets and Benchmarks Track
 ```
 @article{onoe2021creak,
   title={CREAK: A Dataset for Commonsense Reasoning over Entity Knowledge},
@@ -13,6 +13,11 @@ This repository contains the data and code for the baseline described in the fol
   year={2021}
 }
 ```
+
+**\*\*\*\*\* [New] November 8th, 2021: The contrast set has been updated. \*\*\*\*\***
+
+We have increased the size of the contrast set to 500 examples. Please check [the paper](https://openreview.net/pdf?id=mbW_GT3ZN-) for new numbers.
+
 
 ## Datasets
 
@@ -26,7 +31,7 @@ CREAK data files are located under `data/creak`.
 - `train.json` contains 10,176 training examples.
 - `dev.json` contains 1,371 development examples.
 - `test_without_labels.json` contains 1,371 test examples (labels are not included).
-- `contrast_set.json` contains 200 contrastive examples.
+- `contrast_set.json` contains 500 contrastive examples.
 
 The data files are formatted as jsonlines. Here is a single training example:
 ```
